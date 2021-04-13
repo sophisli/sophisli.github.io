@@ -14,9 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  
-    <meta name="description" content="">
-  
+  <meta name="description" content="">
   <meta name="author" content="Lee">
   <meta name="keywords" content="">
   
@@ -56,7 +54,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -196,7 +194,7 @@
           >
           
             <div class="about-avatar">
-              <img src="/img/gu.jpg" srcset="/img/loading.gif"
+              <img src="/img/gu.jpg" srcset="/img/loading.gif" lazyload
                    class="img-fluid" alt="avatar">
             </div>
           
@@ -237,7 +235,7 @@
   </div>
 </div>
 
-<article class="about-content mt-5">
+<article class="about-content page-content mt-5">
   <div class="markdown-body">
     <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>本来不打算给自己做一个归类，那似乎是把一个人约束在冷冰冰的列表里，而每个人都有拓展自己边界的无穷潜力。我内心恐怕不是怎么安分，此生注定是个苦行僧，所以即使自己不够富于天赋，也读了应用物理和理论物理，因为唯有对未知不停地的思考和对世界无休地探索才能让人获得内心的平静。能看出来，我同样是个被知识和技术诅咒的笛卡尔式的人，现在以至未来都不会介意面对困难和挑战，过艰苦平淡的生活。由于家庭环境的影响，以往没事喜欢写写影评诗词练练书法，有一点点玩弄文字的爱好。不过我出生农村，是个乡下人，在家也爱倒腾园林花艺，喜欢博物学和分类学，和大自然、土地比较亲近。作为摄影爱好者，我对摄影的理解源于对时间的感知，渴望留住生命中感动的瞬间，正如佳能的广告词。停住时间是绘画和摄影作为艺术载体重要的表达主题，所内蕴的意义对我而言是深沉超脱的，审美的冲动和哲学式的思考是让人勇敢面对世界唯二的理由。</p>
 <p>与你们共勉</p>
@@ -298,8 +296,9 @@
   
 </footer>
 
-<!-- SCRIPTS -->
 
+  <!-- SCRIPTS -->
+  
   <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
 
@@ -322,7 +321,7 @@
 
 
   
-    <script  src="/js/lazyload.js" ></script>
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
@@ -388,7 +387,6 @@
 
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
-
 
 
 </body>

@@ -14,9 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  
-    <meta name="description" content="">
-  
+  <meta name="description" content="">
   <meta name="author" content="Lee">
   <meta name="keywords" content="">
   
@@ -58,7 +56,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -247,11 +245,11 @@
 <p>两种方式Bubble圈图的语法：</p>
 <p><strong>AxoDraw2</strong></p>
 <figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\begin</span>&#123;axopicture&#125;(400,60)<span class="hljs-comment">%设置画布大小</span><br><span class="hljs-keyword">\AxoGrid</span>(0,0)(10,10)(20,10)&#123;LightGray&#125;&#123;0.5&#125;<span class="hljs-comment">%网格绘制，给画布绘制坐标，方便绘图定位。其中两边的括号定义起始位置，是画布定义之后之于画布的绝对位置，中间括号定义网格单元，花括号分别定义颜色样式和网格线条粗细。</span><br> <span class="hljs-keyword">\SetWidth</span>&#123;1.0&#125;<br>    <span class="hljs-keyword">\SetColor</span>&#123;Black&#125;<br>    <span class="hljs-keyword">\Line</span>[arrow](0,0)(200,100)<br> <span class="hljs-keyword">\Arc</span>[arrow,arrowpos=0.5,arrowlength=5,arrowwidth=2,arrowinset=0.2](85,-20)(40,30,150)  <span class="hljs-keyword">\Arc</span>[arrow,arrowpos=0.5,arrowlength=5,arrowwidth=2,arrowinset=0.2](85,20)(40,210,330)<span class="hljs-comment">%圆弧，中括号设置相应格式获得不同传播子的样式，最后两个括号设置的是圆心在画布上的位置、半径和起始弧度</span><br>    <span class="hljs-keyword">\Vertex</span>(50,0)&#123;2&#125;<span class="hljs-comment">%顶点，括号和花括号分别代表在画布上的位置和顶点大小的设置</span><br>    <span class="hljs-keyword">\Vertex</span>(120,0)&#123;2&#125;<br><span class="hljs-keyword">\end</span>&#123;axopicture&#125;<br></code></pre></td></tr></table></figure>
-<center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(128,128,128,.08);"     src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409200330.png" srcset="/img/loading.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">代码对应的AxoDraw2圈图和基本结构示意</div> </center>
+<center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(128,128,128,.08);"     src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409200330.png" srcset="/img/loading.gif" lazyload>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">代码对应的AxoDraw2圈图和基本结构示意</div> </center>
 
 <p><strong>Feynhand</strong></p>
 <figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\begin</span>&#123;tikzpicture&#125;[baseline=(a.base)]<span class="hljs-comment">%TiKz的绘制环境</span><br><span class="hljs-keyword">\begin</span>&#123;feynhand&#125;<span class="hljs-comment">%Feynhand的绘制环境</span><br><span class="hljs-keyword">\vertex</span> [dot] (a) at (0,0)&#123;&#125;;<span class="hljs-comment">%定义顶点。其中中括号定义的是顶点的类型，（a）是给顶点标记，（0，0）是顶点的坐标位置，是相对位置。注意这里花括号的有无决定顶点的现时与否</span><br><span class="hljs-keyword">\vertex</span> [dot] (b) at (2,0) &#123;&#125;;<br><span class="hljs-keyword">\propag</span> [fer] (a) to [half left,edge label = <span class="hljs-built_in">$</span>k<span class="hljs-built_in">$</span>] (b);<span class="hljs-comment">%定义传播子。由于绘图的专一性，图形命令是高度定制的，中括号中可以定义传播子的类型以及各种属性，包括箭头方向以及矢量文字描述</span><br><span class="hljs-keyword">\propag</span> [anti fermion] (a) to [half right] (b);<br><span class="hljs-keyword">\end</span>&#123;feynhand&#125;<br><span class="hljs-keyword">\end</span>&#123;tikzpicture&#125;<br></code></pre></td></tr></table></figure>
-<center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(128,128,128,.08);"     src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409203021.png" srcset="/img/loading.gif">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">代码对应的Feynhand圈图</div> </center>
+<center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(128,128,128,.08);"     src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409203021.png" srcset="/img/loading.gif" lazyload>    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">代码对应的Feynhand圈图</div> </center>
 
 <p>很明显后者的语法更简洁，下面要介绍本文的重点即相应绘图的逻辑。</p>
 <h2 id="AxoDraw2"><a href="#AxoDraw2" class="headerlink" title="AxoDraw2"></a>AxoDraw2</h2><p>AxoDraw2绘制费曼图的逻辑非常容易理解，它的定义环境类似于PythonGUI画布的概念，<code>\begin&#123;axopicture&#125;\end&#123;axopicture&#125;</code>定义的是一个绘制区域（画布），对应的绘制结构就是点和线，<code>\Vertex</code>和<code>\Line</code>，曲线的语法是<code>\Arc</code>，都为大写字母开头。因为是引用画布的概念，我们一般在画布环境下定义网格<code>\AxoGrid</code>，然后依据网格的位置进行作图。这里点和线指令只需要给定两点在网格上的坐标就能在画布上绘制对应的图，Arc的绘制同理，只不过条件上需要坐标和弧度的限制，<a target="_blank" rel="noopener" href="http://ctan.math.illinois.edu/graphics/axodraw2/axodraw2-man.pdf">具体格式可以参看手册</a>。因为是画图制图的逻辑，所以AxoDraw2可以方便地使用可视化工具JaxoDraw。不过AxoDraw的痛点在于不能自适应的调节在数学环境中的位置（AxoDraw2 2016的手册给了一种自定义绘制单元的方法可以图像单元实现数学环境中的自适应对齐，但是步骤非常繁琐），虽然上手非常容易，但是对于复杂的费曼图绘制仍然是非常麻烦。</p>
@@ -308,14 +306,14 @@
 
             
               <!-- Comments -->
-              <article class="comments" id="comments">
+              <article class="comments" id="comments" lazyload>
                 
                   
                 
                 
   <div id="gitalk-container"></div>
   <script type="text/javascript">
-    Fluid.utils.waitElementVisible('gitalk-container', function() {
+    Fluid.utils.lazyComments('gitalk-container', function() {
       Fluid.utils.createCssLink('/css/gitalk.css')
       Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', function () {
         var gitalk = new Gitalk({
@@ -407,8 +405,9 @@
   
 </footer>
 
-<!-- SCRIPTS -->
 
+  <!-- SCRIPTS -->
+  
   <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
 
@@ -431,7 +430,7 @@
 
 
   
-    <script  src="/js/lazyload.js" ></script>
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
@@ -540,7 +539,6 @@
 
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
-
 
 
 </body>

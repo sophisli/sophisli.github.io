@@ -14,9 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  
-    <meta name="description" content="">
-  
+  <meta name="description" content="">
   <meta name="author" content="Lee">
   <meta name="keywords" content="">
   
@@ -42,7 +40,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+    var CONFIG = {"hostname":"sophisli.github.io","root":"/","version":"1.8.9","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -196,7 +194,7 @@
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2021/04/11/love/" target="_self">
-          <img src="/img/gu.jpg" srcset="/img/loading.gif" alt="love">
+          <img src="/img/gu.jpg" srcset="/img/loading.gif" lazyload alt="love">
         </a>
       </div>
     
@@ -236,7 +234,7 @@
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2021/04/11/%E5%8F%AF%E6%8E%A7%E6%A0%B8%E8%81%9A%E5%8F%98%E5%B1%95%E6%9C%9B/" target="_self">
-          <img src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210412153503.png" srcset="/img/loading.gif" alt="可控核聚变展望">
+          <img src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210412153503.png" srcset="/img/loading.gif" lazyload alt="可控核聚变展望">
         </a>
       </div>
     
@@ -285,7 +283,7 @@
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2021/04/06/Feynman-diagram/" target="_self">
-          <img src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409203021.png" srcset="/img/loading.gif" alt="Feynman diagram">
+          <img src="https://cdn.jsdelivr.net/gh/sophisli/picdomain/img/20210409203021.png" srcset="/img/loading.gif" lazyload alt="Feynman diagram">
         </a>
       </div>
     
@@ -332,7 +330,7 @@
     
       <div class="col-12 col-md-4 m-auto index-img">
         <a href="/2021/04/05/%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/" target="_self">
-          <img src="/img/gu.jpg" srcset="/img/loading.gif" alt="初衷">
+          <img src="/img/gu.jpg" srcset="/img/loading.gif" lazyload alt="初衷">
         </a>
       </div>
     
@@ -423,8 +421,9 @@
   
 </footer>
 
-<!-- SCRIPTS -->
 
+  <!-- SCRIPTS -->
+  
   <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
 
@@ -447,7 +446,7 @@
 
 
   
-    <script  src="/js/lazyload.js" ></script>
+    <script  src="/js/img-lazyload.js" ></script>
   
 
 
@@ -511,7 +510,6 @@
 
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
-
 
 
 </body>
