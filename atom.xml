@@ -46,7 +46,7 @@
     <link href="https://sophisli.github.io/2022/08/19/mathematica-ways/"/>
     <id>https://sophisli.github.io/2022/08/19/mathematica-ways/</id>
     <published>2022-08-19T07:51:28.211Z</published>
-    <updated>2022-09-01T18:50:19.969Z</updated>
+    <updated>2022-09-01T18:58:23.148Z</updated>
     
     
       
@@ -71,7 +71,7 @@
     <link href="https://sophisli.github.io/2022/08/08/machinelearning/"/>
     <id>https://sophisli.github.io/2022/08/08/machinelearning/</id>
     <published>2022-08-07T16:19:46.495Z</published>
-    <updated>2022-09-01T09:55:07.676Z</updated>
+    <updated>2022-09-01T19:14:47.135Z</updated>
     
     
       
@@ -83,6 +83,10 @@
       
     
     
+    
+    <category term="Algorithm" scheme="https://sophisli.github.io/categories/Algorithm/"/>
+    
+    <category term="AI" scheme="https://sophisli.github.io/categories/Algorithm/AI/"/>
     
     
   </entry>
@@ -161,7 +165,7 @@
     <link href="https://sophisli.github.io/2022/04/20/Qsymmetry-tutorial/"/>
     <id>https://sophisli.github.io/2022/04/20/Qsymmetry-tutorial/</id>
     <published>2022-04-20T06:06:51.639Z</published>
-    <updated>2022-09-01T18:55:43.523Z</updated>
+    <updated>2022-09-01T19:01:30.195Z</updated>
     
     
       
@@ -174,9 +178,9 @@
     
     
     
-    <category term="symbol caculation" scheme="https://sophisli.github.io/categories/symbol-caculation/"/>
+    <category term="symbol calculation" scheme="https://sophisli.github.io/categories/symbol-calculation/"/>
     
-    <category term="python" scheme="https://sophisli.github.io/categories/symbol-caculation/python/"/>
+    <category term="python" scheme="https://sophisli.github.io/categories/symbol-calculation/python/"/>
     
     
   </entry>
