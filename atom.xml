@@ -6,7 +6,7 @@
   <link href="https://sophisli.github.io/atom.xml" rel="self"/>
   
   <link href="https://sophisli.github.io/"/>
-  <updated>2022-11-02T14:44:46.060Z</updated>
+  <updated>2022-11-02T15:06:30.663Z</updated>
   <id>https://sophisli.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>testlatex</title>
-    <link href="https://sophisli.github.io/2022/11/02/test/"/>
-    <id>https://sophisli.github.io/2022/11/02/test/</id>
-    <published>2022-11-02T14:43:46.980Z</published>
-    <updated>2022-11-02T14:44:46.060Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Academic" scheme="https://sophisli.github.io/categories/Academic/"/>
-    
-    <category term="computation" scheme="https://sophisli.github.io/categories/Academic/computation/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>量子自旋系统的计算理论</title>
