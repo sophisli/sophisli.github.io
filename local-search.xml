@@ -8,7 +8,7 @@
     <link href="/2022/11/02/test/"/>
     <url>/2022/11/02/test/</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>求迹和可以写成矩阵对角元求和的形式，配分函数则有</p><script type="math/tex; mode=display">\mathcal{Z}=\sum_{\alpha_0}\sum_{\alpha_1}\cdots\sum_{\alpha_{L-1}}\langle\alpha_0|e^{-\Delta_{\tau}H}|\alpha_{L-1}\rangle\cdots\langle\alpha_2|e^{-\Delta_{\tau}H}|\alpha_1\rangle\langle\alpha_1|e^{-\Delta_{\tau}H}|\alpha_0\rangle.\tag{4}</script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>求迹和可以写成矩阵对角元求和的形式，配分函数则有</p><script type="math/tex; mode=display">\mathcal{Z}=\sum_{\alpha_0}\sum_{\alpha_1}\cdots\sum_{\alpha_{L-1}}\langle\alpha_0|e^{-\Delta_{\tau}H}|\alpha_{L-1}\rangle\cdots\langle\alpha_2|e^{-\Delta_{\tau}H}|\alpha_1\rangle\langle\alpha_1|e^{-\Delta_{\tau}H}|\alpha_0\rangle.\tag{4}</script><script type="math/tex; mode=display">\sigma_+=c s R_z+c^2 R_+-s^2 R_-\\\sigma_-=c s R_z-s^2 R_+-c^2 R_-\\\left[\sigma_+\,,\sigma_-\right]=?</script>]]></content>
     
     
     
