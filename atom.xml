@@ -6,7 +6,7 @@
   <link href="https://sophisli.github.io/atom.xml" rel="self"/>
   
   <link href="https://sophisli.github.io/"/>
-  <updated>2022-09-02T08:09:03.855Z</updated>
+  <updated>2022-11-01T18:58:39.090Z</updated>
   <id>https://sophisli.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>量子自旋系统的计算理论</title>
+    <link href="https://sophisli.github.io/2022/10/04/the%20computational%20methods%20of%20quantum%20spin%20system/"/>
+    <id>https://sophisli.github.io/2022/10/04/the%20computational%20methods%20of%20quantum%20spin%20system/</id>
+    <published>2022-10-04T06:13:12.963Z</published>
+    <updated>2022-11-01T18:58:39.090Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Academic" scheme="https://sophisli.github.io/categories/Academic/"/>
+    
+    <category term="computation" scheme="https://sophisli.github.io/categories/Academic/computation/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Jacob行列式符号计算及后续</title>
+    <link href="https://sophisli.github.io/2022/09/05/Jacob/"/>
+    <id>https://sophisli.github.io/2022/09/05/Jacob/</id>
+    <published>2022-09-05T09:06:26.520Z</published>
+    <updated>2022-10-11T08:56:06.969Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Symbol calculation" scheme="https://sophisli.github.io/categories/Symbol-calculation/"/>
+    
+    <category term="maple" scheme="https://sophisli.github.io/categories/Symbol-calculation/maple/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>mathematica实现非对易代数计算</title>
@@ -96,7 +146,7 @@
     <link href="https://sophisli.github.io/2022/06/26/Gauge-in-physics-a-learning-note-from-classical-electromagnetics-to-gauge-field-theory/"/>
     <id>https://sophisli.github.io/2022/06/26/Gauge-in-physics-a-learning-note-from-classical-electromagnetics-to-gauge-field-theory/</id>
     <published>2022-06-26T09:52:52.960Z</published>
-    <updated>2022-09-03T05:35:36.895Z</updated>
+    <updated>2022-09-28T12:51:30.389Z</updated>
     
     
       
@@ -236,11 +286,11 @@
   </entry>
   
   <entry>
-    <title>the Quantum Theory of Field</title>
+    <title>the Quantum Theory of Field(chapter 1 Historical introduction)</title>
     <link href="https://sophisli.github.io/2021/10/10/the-Quantum-Theory-of-Field/"/>
     <id>https://sophisli.github.io/2021/10/10/the-Quantum-Theory-of-Field/</id>
     <published>2021-10-10T14:40:45.351Z</published>
-    <updated>2022-09-03T02:51:17.279Z</updated>
+    <updated>2022-10-11T09:01:59.541Z</updated>
     
     
       
@@ -326,7 +376,7 @@
     <link href="https://sophisli.github.io/2021/06/16/Feynman-diagram/"/>
     <id>https://sophisli.github.io/2021/06/16/Feynman-diagram/</id>
     <published>2021-06-16T05:21:44.348Z</published>
-    <updated>2022-09-03T03:25:37.016Z</updated>
+    <updated>2022-09-13T07:08:33.429Z</updated>
     
     
       
